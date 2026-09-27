@@ -1,0 +1,154 @@
+id,category,question,answer,keywords,example
+1,Python Basics,What is Python?,Python is a high-level general-purpose programming language known for readable syntax and a large ecosystem of libraries.,python programming language high-level general-purpose,"print(""Hello, World!"")"
+2,Python Basics,Why is Python popular?,"Python is popular because its syntax is readable and it is widely used for automation, web development, data science, artificial intelligence, and scripting.",python popular readable applications,import pandas as pd
+3,Python Basics,What are variables in Python?,Variables are names that refer to values or objects in Python.,variables values objects,"name = ""Pavani"""
+4,Python Basics,What is dynamic typing in Python?,"Python uses dynamic typing, so a variable name can refer to objects of different types during program execution.",dynamic typing variable type,"x = 10
+x = ""Python"""
+5,Python Basics,How do you take input in Python?,The input function reads text entered by the user and returns it as a string.,input user input,"name = input(""Enter your name: "")"
+6,Python Basics,How do you print output in Python?,The print function displays values or text on the console.,print output console,"print(""Hello"")"
+7,Python Basics,What are comments in Python?,Comments are notes in source code that Python does not execute. A single-line comment begins with #.,comments hash code documentation,# This is a comment
+8,Data Types,What are Python data types?,"Common built-in Python data types include int, float, str, bool, list, tuple, set, dict, and NoneType.",data types int float string boolean list tuple set dictionary,age = 21
+9,Data Types,What is an integer in Python?,An integer is a whole number without a decimal part.,int integer whole number,age = 21
+10,Data Types,What is a float in Python?,A float represents a number with a decimal component.,float decimal number,price = 99.50
+11,Data Types,What is a Boolean in Python?,A Boolean represents one of two truth values: True or False.,bool boolean true false,is_active = True
+12,Data Types,What is type casting in Python?,Type casting is converting a value from one data type to another.,type casting conversion,"number = int(""25"")"
+13,Data Types,How do you check the type of a Python variable?,The type function returns the type or class of an object.,type variable datatype,print(type(25))
+14,Strings,What is a string in Python?,A string is a sequence of characters used to represent text.,string text characters,"name = ""Python"""
+15,Strings,How do you access characters in a Python string?,"Characters can be accessed using indexing, with the first character at index 0.",string indexing characters,"text = ""Python""
+print(text[0])"
+16,Strings,What is string slicing in Python?,"String slicing extracts a portion of a string using start, stop, and optional step indexes.",string slicing substring,"text = ""Python""
+print(text[0:3])"
+17,Strings,How do you convert a string to lowercase?,The lower method returns a lowercase version of a string.,string lower lowercase,text.lower()
+18,Strings,How do you convert a string to uppercase?,The upper method returns an uppercase version of a string.,string upper uppercase,text.upper()
+19,Strings,What are f-strings in Python?,F-strings are formatted string literals that allow expressions to be embedded inside strings using curly braces.,f-string formatting string,"name = ""Pavani""
+print(f""Hello {name}"")"
+20,Lists,What is a list in Python?,A list is an ordered and mutable collection that can contain multiple values of different data types.,list ordered mutable collection,"numbers = [10, 20, 30]"
+21,Lists,Explain Python lists.,A Python list stores multiple values in an ordered collection and its elements can be changed after creation.,lists mutable ordered,"items = [""pen"", ""book""]"
+22,Lists,How do you add an item to a Python list?,The append method adds one item to the end of a list.,list append add,numbers.append(40)
+23,Lists,How do you remove an item from a Python list?,"The remove method deletes the first matching value from a list, while pop can remove an item by index.",list remove pop delete,numbers.remove(20)
+24,Lists,How do you sort a Python list?,The sort method sorts a list in place. The sorted function returns a new sorted list.,list sort sorted,numbers.sort()
+25,Lists,What is list comprehension?,"List comprehension is a concise way to create a new list from an iterable, optionally applying a condition.",list comprehension iterable condition,squares = [x*x for x in range(5)]
+26,Tuples,What is a tuple in Python?,A tuple is an ordered and immutable collection of values.,tuple ordered immutable,"values = (10, 20, 30)"
+27,Tuples,Why are tuples immutable?,"Tuple elements cannot be changed, added, or removed after the tuple is created.",tuple immutable cannot change,"point = (10, 20)"
+28,Tuples,When should you use a tuple instead of a list?,Tuples are useful when the collection should remain unchanged or when immutable sequence semantics are desired.,tuple list immutable,"coordinates = (12.9, 77.6)"
+29,Sets,What is a set in Python?,A set is an unordered collection of unique elements.,set unordered unique,"numbers = {1, 2, 3}"
+30,Sets,How do you remove duplicates using a set?,Converting a sequence to a set removes duplicate values because sets contain only unique elements.,set duplicates unique,"unique = set([1, 1, 2, 3])"
+31,Sets,What are set union and intersection?,"Union combines elements from sets, while intersection returns elements common to both sets.",set union intersection,"a | b
+a & b"
+32,Dictionaries,What is a dictionary in Python?,A dictionary is a mutable collection that stores data as key-value pairs.,dictionary key value mutable,"student = {""name"": ""Pavani""}"
+33,Dictionaries,How do you access a value in a dictionary?,You can access a value using its key or the get method.,dictionary access key get,"student[""name""]"
+34,Dictionaries,How do you add an item to a dictionary?,Assign a value to a new key to add a key-value pair.,dictionary add key value,"student[""age""] = 21"
+35,Dictionaries,What are dictionary keys and values?,"A key identifies an entry in a dictionary, and its associated value stores the corresponding data.",dictionary keys values,"{""name"": ""Pavani""}"
+36,Operators,What are operators in Python?,Operators are symbols or keywords used to perform operations on values and variables.,operators arithmetic comparison logical,result = 10 + 5
+37,Operators,What are arithmetic operators in Python?,"Arithmetic operators perform mathematical operations such as addition, subtraction, multiplication, division, modulus, and exponentiation.",arithmetic operators math,result = 10 + 5
+38,Operators,What are comparison operators in Python?,"Comparison operators compare values and produce Boolean results, such as ==, !=, >, <, >=, and <=.",comparison operators boolean,age >= 18
+39,Operators,What are logical operators in Python?,"The logical operators and, or, and not combine or invert Boolean conditions.",logical operators and or not,age >= 18 and active
+40,Conditional Statements,What is an if statement in Python?,An if statement executes a block of code when a condition is true.,if condition decision,"if age >= 18:
+    print(""Adult"")"
+41,Conditional Statements,What is if elif else in Python?,"The if, elif, and else statements allow a program to select between multiple conditional branches.",if elif else conditions,"if x > 0:
+    print(""positive"")
+elif x == 0:
+    print(""zero"")
+else:
+    print(""negative"")"
+42,Loops,What is a for loop in Python?,"A for loop iterates over items in an iterable such as a list, string, tuple, or range.",for loop iteration iterable,"for i in range(5):
+    print(i)"
+43,Loops,What is a while loop in Python?,A while loop repeatedly executes a block while its condition remains true.,while loop condition iteration,"while count < 5:
+    count += 1"
+44,Loops,What does break do in Python?,The break statement immediately exits the nearest loop.,break loop exit,"for i in range(10):
+    if i == 5:
+        break"
+45,Loops,What does continue do in Python?,The continue statement skips the remaining code in the current loop iteration and moves to the next iteration.,continue loop skip,"for i in range(5):
+    if i == 2:
+        continue"
+46,Loops,What does pass do in Python?,The pass statement does nothing and is used as a placeholder where a statement is syntactically required.,pass placeholder,"def future_function():
+    pass"
+47,Functions,What is a function in Python?,A function is a reusable block of code designed to perform a specific task.,function reusable code def,"def greet():
+    print(""Hello"")"
+48,Functions,What are functions used for in Python?,"Functions organize reusable logic, reduce repetition, and make programs easier to maintain.",functions reusable code,"def add(a, b):
+    return a + b"
+49,Functions,What are parameters and arguments in Python?,"Parameters are variables defined in a function declaration, while arguments are the values passed when the function is called.",parameters arguments function,"def greet(name):
+    print(name)
+greet(""Pavani"")"
+50,Functions,What is a return statement in Python?,A return statement sends a value from a function back to the caller.,return function value,"def add(a, b):
+    return a + b"
+51,Functions,What are default arguments in Python?,A default argument has a predefined value that is used when the caller does not provide an argument for that parameter.,default arguments function,"def greet(name=""Guest""):
+    print(name)"
+52,Functions,What are *args in Python?,*args allows a function to accept a variable number of positional arguments.,args variable arguments,"def add(*numbers):
+    return sum(numbers)"
+53,Functions,What are **kwargs in Python?,**kwargs allows a function to accept a variable number of keyword arguments.,kwargs keyword arguments,"def show(**data):
+    print(data)"
+54,Functions,What is a lambda function in Python?,A lambda function is a small anonymous function written using the lambda keyword.,lambda anonymous function,square = lambda x: x * x
+55,Functions,What is variable scope in Python?,"Variable scope determines where a variable can be accessed, including local and global scopes.",scope local global variable,"x = 10
+
+def show():
+    y = 20"
+56,OOP,What is OOP in Python?,"OOP, or Object-Oriented Programming, is a programming approach that organizes software around objects containing data and behavior.",oop object oriented programming,"class Student:
+    pass"
+57,OOP,What is OOPS in Python?,"OOPS commonly refers to Object-Oriented Programming concepts in Python, including classes, objects, inheritance, encapsulation, abstraction, and polymorphism.",oops object oriented programming concepts,"class Student:
+    pass"
+58,OOP,What is object-oriented programming?,Object-oriented programming organizes programs around objects that combine data and related behavior.,object oriented programming oop,"class Car:
+    pass"
+59,OOP,What is a class in Python?,A class is a blueprint for creating objects and defining their attributes and methods.,class object attributes methods,"class Student:
+    pass"
+60,OOP,What is an object in Python?,An object is an instance of a class that contains the data and behavior defined by that class.,object class instance,student = Student()
+61,OOP,What is __init__ in Python?,The __init__ method is commonly used to initialize an object's attributes when an instance is created.,init constructor object initialization,"class Student:
+    def __init__(self, name):
+        self.name = name"
+62,OOP,What is self in Python?,self refers to the current object instance inside an instance method.,self object instance method,"def show(self):
+    print(self.name)"
+63,OOP,What is inheritance in Python?,Inheritance allows a class to acquire attributes and methods from another class.,inheritance parent child class,"class Dog(Animal):
+    pass"
+64,OOP,What is polymorphism in Python?,Polymorphism allows different objects or classes to provide their own implementation of a common operation or interface.,polymorphism oop methods,"class Dog:
+    def speak(self):
+        return ""Bark"""
+65,OOP,What is encapsulation in Python?,Encapsulation is the practice of bundling data and methods together and controlling how internal details are accessed.,encapsulation oop data methods,"class Account:
+    def __init__(self):
+        self._balance = 0"
+66,OOP,What is abstraction in Python?,Abstraction focuses on exposing essential behavior while hiding unnecessary implementation details.,abstraction oop interface,"from abc import ABC, abstractmethod"
+67,Exception Handling,What is exception handling in Python?,"Exception handling allows a program to handle runtime errors using try, except, else, and finally.",exception handling errors try except,"try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print(""Cannot divide by zero"")"
+68,Exception Handling,What is try except in Python?,"The try block contains code that may raise an exception, while except handles the exception.",try except error handling,"try:
+    value = int(input())
+except ValueError:
+    print(""Invalid input"")"
+69,Exception Handling,What does finally do in Python?,The finally block runs after the try and except processing whether or not an exception occurs.,finally exception cleanup,"try:
+    file = open(""data.txt"")
+finally:
+    print(""Finished"")"
+70,Exception Handling,How do you raise an exception in Python?,The raise statement explicitly triggers an exception.,raise exception error,"raise ValueError(""Invalid value"")"
+71,File Handling,How do you open a file in Python?,"The open function opens a file using modes such as r for reading, w for writing, and a for appending.",file open read write,"file = open(""data.txt"", ""r"")"
+72,File Handling,How do you read a file in Python?,"A file can be read using methods such as read, readline, or readlines.",file read readline,"with open(""data.txt"", ""r"") as file:
+    text = file.read()"
+73,File Handling,How do you write to a file in Python?,A file can be opened in write or append mode and written using the write method.,file write append,"with open(""data.txt"", ""w"") as file:
+    file.write(""Hello"")"
+74,File Handling,Why use with open in Python?,The with statement manages the file resource and automatically closes the file when the block finishes.,with open context manager file,"with open(""data.txt"") as file:
+    text = file.read()"
+75,Modules,What is a module in Python?,"A module is a Python file containing reusable code such as functions, classes, and variables.",module python file reusable,import math
+76,Modules,What is a package in Python?,A package is a directory structure used to organize related Python modules.,package modules organization,from mypackage import utils
+77,Advanced Python,What is an iterator in Python?,An iterator is an object that returns items one at a time and implements the iterator protocol.,iterator iter next,"it = iter([1, 2, 3])"
+78,Advanced Python,What is a generator in Python?,"A generator is a special iterator that produces values lazily, commonly using the yield statement.",generator yield iterator,"def numbers():
+    yield 1"
+79,Advanced Python,What is a decorator in Python?,A decorator is a callable that wraps another function or class to extend or modify its behavior.,decorator function wrapper,"def decorator(func):
+    def wrapper():
+        return func()
+    return wrapper"
+80,Advanced Python,What is a virtual environment in Python?,A virtual environment is an isolated Python environment used to keep project dependencies separate.,virtual environment venv dependencies,python -m venv venv
+81,Built-in Functions,What does len do in Python?,"The len function returns the number of items in an object such as a string, list, tuple, or dictionary.",len length built-in,"len([1, 2, 3])"
+82,Built-in Functions,What does range do in Python?,The range function produces a sequence of integers commonly used for iteration.,range loop integers,"for i in range(5):
+    print(i)"
+83,Built-in Functions,What does enumerate do in Python?,enumerate returns an iterable that provides an index and value while iterating over another iterable.,enumerate index iteration,"for i, value in enumerate(items):
+    print(i, value)"
+84,Built-in Functions,What does zip do in Python?,zip combines elements from multiple iterables into tuples of corresponding elements.,zip iterable combine,"for name, age in zip(names, ages):
+    print(name, age)"
+85,Built-in Functions,What are map and filter in Python?,"map applies a function to items in an iterable, while filter selects items for which a condition is true.",map filter functional,"list(map(str, [1, 2, 3]))"
+86,NumPy,What is NumPy?,NumPy is a Python library for numerical computing that provides multidimensional arrays and efficient mathematical operations.,numpy numerical array,"import numpy as np
+arr = np.array([1, 2, 3])"
+87,Pandas,What is Pandas in Python?,Pandas is a Python library for data manipulation and analysis that provides structures such as Series and DataFrame.,pandas data analysis dataframe,"import pandas as pd
+df = pd.DataFrame({""A"": [1, 2]})"
+88,Pandas,What is a DataFrame in Pandas?,A DataFrame is a two-dimensional labeled data structure in Pandas with rows and columns.,pandas dataframe rows columns,"df = pd.DataFrame({""name"": [""A"", ""B""]})"
+89,Matplotlib,What is Matplotlib?,Matplotlib is a Python library commonly used to create charts and visualizations.,matplotlib visualization charts,"import matplotlib.pyplot as plt
+plt.plot([1, 2, 3])"
+90,Scikit-learn,What is scikit-learn?,"Scikit-learn is a Python machine learning library that provides tools for preprocessing, modeling, evaluation, and other ML tasks.",scikit-learn machine learning preprocessing,from sklearn.model_selection import train_test_split
